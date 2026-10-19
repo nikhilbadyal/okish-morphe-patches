@@ -1,6 +1,6 @@
 {
   "NOTE": "Do NOT manually edit this file. This file is automatically updated when semantic release (release.yml) runs. Manually editing this file can break your releases and break third party tools that use this file.",
-  "version": "1.45.1",
+  "version": "1.0.0",
   "patches": [
     {
       "name": "AD Instant Rewards",
@@ -2279,6 +2279,32 @@
           "targets": [
             {
               "version": "1.3.10",
+              "versionCodes": null,
+              "isExperimental": false,
+              "minSdk": null,
+              "description": null
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
+      "name": "Swift Backup Blacklist Limit",
+      "description": "Expands the maximum number of blacklisted apps from 100 to 1,000.",
+      "default": true,
+      "dependencies": [],
+      "compatiblePackages": [
+        {
+          "packageName": "org.swiftapps.swiftbackup",
+          "name": "Swift Backup",
+          "description": null,
+          "apkFileType": "APK",
+          "appIconColor": "#1976D2",
+          "signatures": null,
+          "targets": [
+            {
+              "version": "5.1.0",
               "versionCodes": null,
               "isExperimental": false,
               "minSdk": null,
