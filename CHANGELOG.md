@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/nikhilbadyal/nik-morphe-patches/compare/v1.0.0...v1.0.1) (2026-11-07)
+
+### 🐛 Bug Fixes
+
+* **swiftbackup:** restore blacklist from cloud automatically ([e9c5a69](https://github.com/nikhilbadyal/nik-morphe-patches/commit/e9c5a69e93b46163bb9521e42f598cfc5d6104f7))
+
 ## 1.0.0 (2026-11-06)
 
 ### ✨ New Features
